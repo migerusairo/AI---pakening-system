@@ -1,0 +1,187 @@
+        {"tag": "greeting",
+         "patterns": ["Kamusta diyan", "Kumusta ka na", "hoy!","oy","Hola", "Hello", "Magandang araw", "Hi"],
+         "responses": ["Kumusta", "masaya akong makita ka ulit", "Hi diyan, paano kita matutulungan?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": [" Paalam", "Sa muling pagkikita", "Paalam", "Nakakatuwa ang makipag-usap sa'yo, paalam", "Hanggang sa susunod na pagkakataon"],
+         "responses": ["Sa muling pagkikita!", "Magandang araw sa'yo" - Magandang araw sa'yo, "Paalam! Balik ka ulit"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Salamat", "Salamat", "Nakakatulong iyan", "Astig, salamat", "Salamat sa tulong mo"],
+         "responses": ["Walang anuman"],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["anong pangalan mo?", "anong itatawag ko sayo?", "sino ka?"],
+         "responses": ["Tawagin mo akong Saviour.", "Ako si Saviour!", "Ako si Saviour, tutulungan ka!"],
+         "context_set": ""
+        },
+        {"tag": "crucial",
+         "patterns": ["Gusto ko pumatay", "Gusto ko magpakamatay", "Depressed ako", "Gusto ko na mamatay", "patay"],
+         "responses": ["Ito ay isang mahalagang paksa! Maari mong kontakin ang TCU counseling office para sa gabay sa numerong #8635-8300."],
+         "context": [""]
+        },
+       {"tag": "education",
+         "patterns": ["maghanda sa pagsusulit", "hilig sa pag-aaral", "epektibo"],
+         "responses": ["Ang pagsasanay para sa mga pagsusulit ay nangangailangan ng isang estratehikong paraan. Narito ang ilang mga tips sa pag-oorganisa ng iyong plano sa pagsusuri at sa pamamahala ng stress sa panahon ng mga pagsusulit."],
+         "context": [""]
+        },
+       {"tag": "education2",
+         "patterns": ["kinakabahan", "pamahalaan ang kaba sa pagsusulit"],
+         "responses": ["Ang nerbiyos sa pagsusulit ay karaniwan. Pag-usapan natin ang mga paraan ng pagpapalitawid ng iyong isipan, epektibong paraan ng paghahanda, at mga paraan ng pagbabago ng iyong pananaw upang bawasan ang nerbiyos sa panahon ng mga pagsusulit."],
+         "context": [""]
+        },
+      {"tag": "education3",
+         "patterns": ["nangangailangan ng tulong"],
+         "responses": ["Paumanhin at nalaman kong nahihirapan ka sa iyong akademiko. Mahalaga na tandaan na ang pagharap sa mga hamon ay bahagi ng karaniwang proseso ng pag-aaral, at ang paghahanap ng tulong ay isang proaktibong hakbang patungo sa pagpapabuti."],
+         "context": [""]
+        },
+      {"tag": "education4",
+         "patterns": ["walang interes sa pag-aaral," "nakakabagot"],
+         "responses": ["Hindi bihirang maramdaman ang kawalan ng interes o pagkakabagot sa pag-aaral paminsan-minsan. Tandaan, okay lang na maranasan ang mga yugto ng kawalan ng interes, ngunit ang paghanap ng paraan upang gawing mas kaakit-akit ang iyong pag-aaral ay makakatulong sa iyo na manatiling motivated at nakatutok. Kung ang nararamdaman ay patuloy, isaalang-alang ang pagsusuri ng mga bagong paksa o kurso na mas nababagay sa iyong mga interes at layunin."],
+         "context": [""]
+        },
+      {"tag": "education5",
+         "patterns": ["Bakit ko kailangang mag-aral?"],
+         "responses": ["Ang pag-aaral ay may ilang mahalagang layunin at maaaring magkaruon ng malaking epekto sa iyong personal at propesyonal na buhay."],
+         "context": [""]
+      },
+      {"tag": "education6",
+         "patterns": ["Dapat ba akong magpahinga?", "Pagod"],
+         "responses": ["Ang pakiramdam ng pagod ay isang malinaw na senyales na ang iyong mental at emosyonal na kalusugan ay naaapekto nang negatibo. Ang pagkakaroon ng pahinga ay maaaring maging kapaki-pakinabang at kinakailangang hakbang upang makabawi at magkaruon ng sapat na lakas. Tandaan, ang pahinga ay isang proaktibong hakbang patungo sa pangangalaga sa sarili, at ito ay maaaring makatulong sa iyong pangmatagalan na kalusugan. Kung hindi ka sigurado sa tamang hakbang na dapat gawin, maaring magtanong ng payo mula sa tiwalaang mga tao, tulad ng mga guro, kaibigan, o mga propesyonal sa kalusugan ng isip."],
+         "context": [""]
+      },
+      {"tag": "education7",
+         "patterns": ["Pag-aayos ng akademikong buhay," "personal na buhay nang hindi nadaramang naaaprubahan."],
+         "responses": ["Ang pag-aayos ng akademiko at personal na buhay ay isang karaniwang hamon, ngunit sa pamamagitan ng epektibong mga estratehiya, maaari mong pamahalaan pareho ang mga aspektong ito nang hindi nadaramang naaaprubahan."],
+         "context": [""]
+      },
+      {"tag": "education8",
+         "patterns": ["Sumasakit ang ulo ko kapag nag-aaral ako, anong maaari kong gawin?"],
+         "responses": ["Ang pagiging pagod habang nag-aaral ay tiyak na karaniwan, ngunit mahalaga itong aksayahin sapagkat maaaring humadlang ito sa iyong progreso at gawing hindi ka gaanong masaya sa pag-aaral. Tandaan, ang pag-aaral ay dapat na isang produktibong at masayang karanasan. Sa pamamagitan ng ilang pagbabago sa iyong routine at kapaligiran, maaari mong labanan ang pagod at magsanay ng maayos sa iyong oras ng pag-aaral."],
+         "context": [""]
+      },
+      {"tag": "education9",
+         "patterns": ["Ayaw ko nang mag-aral."],
+         "responses": ["Makakatwiran ang pakiramdam ng pagod sa pag-aaral. Ang pagtingin muna sa likod at pagsusuri sa iyong mga pagpipilian ay maaaring makatulong sa iyo na malampasan ang pansamantalang pagsubok na ito at hanapin ang paraan ng mas positibo at pangmatagalan na paraan ng pag-aaral."],
+         "context": [""]
+      },
+      {"tag": "thesis",
+         "patterns": ["Bakit kinakailangan ang isang tesis?"],
+         "responses": ["A thesis is a document that summarizes the results of your research and presents your original contribution to the field. It's like a roadmap, guiding the reader through your research journey and highlighting your key findings and insights. Thesis is not just a requirement; it's an opportunity to showcase your skills, contribute to your field, and open doors to new possibilities. While the process can be demanding, the rewards of completing a successful thesis are significant and long-lasting."],
+         "context": [""]
+      },
+      {"tag": "thesis1",
+         "patterns": ["don't want thesis"],
+         "responses": ["It's completely understandable if you don't want to do a thesis! It's a big undertaking and can feel overwhelming. However, it's important to understand why it's required and explore your options before making a decision. Ultimately, the decision of whether or not to do a thesis is yours. But before making a final decision, take some time to explore your options and seek guidance from those who can support you."],
+         "context": [""]
+      },
+      {"tag": "thesis2",
+         "patterns": ["Will I pass the thesis?"],
+         "responses": ["Unfortunately, I can't predict the future and tell you definitively whether you will pass your thesis. Remember, passing your thesis is not just about luck or chance. It's about thorough preparation, hard work, and a positive attitude. By following these tips and putting in the effort, you can significantly increase your chances of success."],
+         "context": [""]
+      },
+      {"tag": "financialedu",
+         "patterns": ["don't have money for education"],
+         "responses": ["If you're facing financial challenges and don't have the resources for education, Remember to reach out to educational institutions, financial aid offices, and local community organizations for guidance and information on available resources. Additionally, consider exploring unconventional paths that align with your educational and career goals while fitting your financial situation."],
+         "context": [""]
+      },
+      {"tag": "thesis3",
+         "patterns": ["is a thesis necessary for graduate studies"],
+         "responses": ["Absolutely. A thesis is often a requirement for graduate studies. A thesis serves multiple purposes in academic writing. It provides a clear roadmap for your research, establishes the central argument, and contributions to critical thinking."],
+         "context": [""]
+      },
+      {"tag": "acads",
+         "patterns": ["feeling overwhelmed with coursework and assignments"],
+         "responses": ["It's completely normal to feel overwhelmed, especially when the workload is high. Let's break down your tasks into smaller, manageable steps and create a schedule. Prioritizing assignments and seeking support from professors or classmates can also help.."],
+         "context": [""]
+      },
+      {"tag": "acads1",
+         "patterns": ["no motivation", "attend classes"],
+         "responses": ["Lack of motivation can be challenging. Let's explore what aspects of your studies interest you. Setting small goals, finding new ways to engage with the material, or incorporating breaks into your study routine might help reignite your motivation."],
+         "context": [""]
+      },
+      {"tag": "acads2",
+         "patterns": ["stress of exams is affecting", "replace me"],
+         "responses": ["Experiencing stress is common, especially during exams. Let's discuss stress management techniques, like deep breathing exercises or mindfulness. Planning your study sessions well in advance and taking breaks can also alleviate stress."],
+         "context": [""]
+      },
+      {"tag": "acads3",
+         "patterns": ["I'm struggling to balance academics and my personal life"],
+         "responses": ["Balancing academics and personal life is crucial. Let's create a schedule that allocates time for both. Prioritizing self-care, setting boundaries, and communicating your schedule with friends and family can help achieve a healthier balance."],
+         "context": [""]
+      },
+      {"tag": "acads4",
+         "patterns": ["afraid of failing my exams"],
+         "responses": ["Fear of failure is understandable. It's essential to focus on the process rather than just the outcome. Let's work on effective study strategies, seek support when needed, and remember that mistakes are opportunities for learning and improvement."],
+         "context": [""]
+      },
+        {"tag": "acads5",
+         "patterns": ["received critical feedback on my work, and it's affecting my confidence"],
+         "responses": ["Receiving feedback, whether positive or critical, is part of the learning process. Let's review the feedback together and identify areas for improvement. Constructive criticism is an opportunity to grow, and I'm here to support you."],
+         "context": [""]
+      },
+        {"tag": "acads6",
+         "patterns": ["isolated","disconnected from classmates"],
+         "responses": ["Feeling isolated is challenging. Let's explore opportunities to connect with classmates, such as joining study groups, participating in class discussions, or engaging in extracurricular activities. Building a supportive network can positively impact your academic experience.Remember that each person's experience is unique, and responses should be tailored to individual needs. Encouraging open communication, providing support, and helping students develop coping strategies are essential components of addressing emotional challenges in academics."],
+         "context": [""]
+      },
+        {"tag": "acads7",
+         "patterns": ["doubt abilities"],
+         "responses": ["Imposter syndrome is common, especially in academic settings. Let's explore your accomplishments, acknowledge your strengths, and work on building confidence. Remember, everyone has their unique journey."],
+         "context": [""]
+      },
+        {"tag": "acads8",
+         "patterns": ["uncertain future","career path"],
+         "responses": ["Uncertainty about the future is normal. Let's explore your interests, strengths, and potential career paths. Developing a plan and seeking guidance from career services can provide clarity and alleviate anxiety."],
+         "context": [""]
+        },
+        {"tag": "acads9",
+         "patterns": ["effort","unnoticed"],
+         "responses": ["Feeling unrecognized can be disheartening. Let's discuss ways to communicate your efforts to instructors, such as sharing progress or seeking feedback. It's important for your hard work to be acknowledged, and we can find ways to make that happen."],
+         "context": [""]
+        },
+        {"tag": "subject",
+         "patterns": ["subject", "unit"],
+         "responses": ["Sorry, I was not built to answer that."],
+         "context": [""]
+        },
+        {"tag": "bullying",
+         "patterns": ["bully", "bullies"],
+         "responses": ["Stand tall and project confidence. Bullies often target those they perceive as vulnerable. Assertive body language and a confident demeanor can discourage them."],
+         "context": [""]
+        },
+        {"tag": "bullying2",
+         "patterns": ["bullying"],
+         "responses": ["If the bullying persists and becomes harmful or threatening, report it to the appropriate authorities, such as school officials, HR at work, or law enforcement."],
+         "context": [""]
+        },
+        {"tag": "bullying3",
+         "patterns": ["bullied"],
+         "responses": ["Keep a record of incidents, including dates, times, locations, and details of what happened. This documentation can be useful if you need to involve authorities or seek intervention."],
+         "context": [""]
+        },
+        {"tag": "finance",
+         "patterns": ["financial problem"],
+         "responses": ["Explore available financial aid options, such as scholarships, grants, and student loans. Many institutions and organizations offer financial assistance to students in need."],
+         "context": [""]
+        },
+        {"tag": "finance2",
+         "patterns": ["debt", "financial"],
+         "responses": ["Consider finding part-time work to help cover your expenses. Many students successfully balance work and academics. Look for on-campus opportunities or flexible off-campus jobs."],
+         "context": [""]
+        },
+        {"tag": "time",
+         "patterns": ["time", "time management", "late"],
+         "responses": ["Develop a weekly or monthly schedule that includes all your classes, study sessions, work commitments, and other activities. Use a planner or digital tools to help you stay organized."],
+         "context": [""]
+        },
+        {"tag": "time2",
+         "patterns": ["deadlines", "due date"],
+         "responses": ["Identify and prioritize tasks based on their importance and deadlines. Focus on completing high-priority tasks first before moving on to less critical ones."],
+         "context": [""]
+      }
+    ]
+ }
