@@ -1,0 +1,188 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hi"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome"],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Saviour.", "I'm Saviour!", "I'm Saviour, here to help you!"],
+         "context_set": ""
+        },
+        {"tag": "crucial",
+         "patterns": ["I want to kill", "i want to suicide", " i have a depression", "i want to die", "dead"],
+         "responses": ["This is a crucial topic! please contact TCU counseling office for the guidance dial #8635-8300"],
+         "context": [""]
+        },
+       {"tag": "education",
+         "patterns": ["prepare exam","study habits","effective"],
+         "responses": ["Preparing for exams involves a strategic approach. Here are some tips on organizing your study plan and managing stress during exams periods."],
+         "context": [""]
+        },
+       {"tag": "education2",
+         "patterns": ["anxious", "manage test anxiety"],
+         "responses": ["Test anxiety is a common. Let's discuss relaxation techniques, effective preparation strategies, and ways to shift your mindset to reduce anxiety during exams."],
+         "context": [""]
+        },
+      {"tag": "education3",
+         "patterns": ["struggling"],
+         "responses": ["I'm sorry to hear that you're struggling in your academics. It's important to remember that facing challenges is a common part of the learning process, and seeking help is a proactive step towards improvement."],
+         "context": [""]
+        },
+      {"tag": "education4",
+         "patterns": ["no interest in studies,", "boring"],
+         "responses": ["It's not uncommon to feel disinterested or bored with studies at times Remember, it's okay to experience periods of disinterest, but finding ways to make your studies more engaging can help you stay motivated and focused. If the feelings persist, consider exploring new subjects or courses that align better with your interests and goals."],
+         "context": [""]
+        },
+      {"tag": "education5",
+         "patterns": ["why should i study?"],
+         "responses": ["Studying serves several important purposes and can have a significant impact on your personal and professional life."],
+         "context": [""]
+      },
+      {"tag": "education6",
+         "patterns": ["should i take a break", "burn out"],
+         "responses": ["Feeling burnt out is a clear sign that your mental and emotional well-being is being negatively impacted. Taking a break can be a helpful and necessary step to recover and recharge. Remember, taking a break is a proactive step towards self-care, and it can contribute to your long-term well-being. If you're unsure about the best course of action, consider seeking advice from trusted individuals, such as mentors, friends, or mental health professionals.."],
+         "context": [""]
+      },
+      {"tag": "education7",
+         "patterns": ["balancing academic","personal life without feeling overhelmed"],
+         "responses": ["Balancing academics and personal life is a common challenge, but with effective strategies, you can manage both areas without feeling overwhelmed."],
+         "context": [""]
+      },
+      {"tag": "education8",
+         "patterns": ["i feel exhausted when i study, what can i do?"],
+         "responses": ["Feeling exhausted while studying is definitely common, but it's important to address because it can hinder your progress and make learning less enjoyable.Remember, studying should be a productive and enjoyable experience. By making some changes to your routine and environment, you can combat exhaustion and make the most of your study time."],
+         "context": [""]
+      },
+      {"tag": "education9",
+         "patterns": ["i don't want to study anymore"],
+         "responses": ["It's completely understandable to feel burnt out on studying. Taking a step back and exploring your options can help you overcome this temporary hurdle and find a way to approach your studies in a more positive and sustainable way."],
+         "context": [""]
+      },
+      {"tag": "thesis",
+         "patterns": ["Why is a thesis necessary?"],
+         "responses": ["A thesis is a document that summarizes the results of your research and presents your original contribution to the field. It's like a roadmap, guiding the reader through your research journey and highlighting your key findings and insights. Thesis is not just a requirement; it's an opportunity to showcase your skills, contribute to your field, and open doors to new possibilities. While the process can be demanding, the rewards of completing a successful thesis are significant and long-lasting."],
+         "context": [""]
+      },
+      {"tag": "thesis1",
+         "patterns": ["don't want thesis"],
+         "responses": ["It's completely understandable if you don't want to do a thesis! It's a big undertaking and can feel overwhelming. However, it's important to understand why it's required and explore your options before making a decision. Ultimately, the decision of whether or not to do a thesis is yours. But before making a final decision, take some time to explore your options and seek guidance from those who can support you."],
+         "context": [""]
+      },
+      {"tag": "thesis2",
+         "patterns": ["Will I pass the thesis?"],
+         "responses": ["Unfortunately, I can't predict the future and tell you definitively whether you will pass your thesis. Remember, passing your thesis is not just about luck or chance. It's about thorough preparation, hard work, and a positive attitude. By following these tips and putting in the effort, you can significantly increase your chances of success."],
+         "context": [""]
+      },
+      {"tag": "financialedu",
+         "patterns": ["don't have money for education"],
+         "responses": ["If you're facing financial challenges and don't have the resources for education, Remember to reach out to educational institutions, financial aid offices, and local community organizations for guidance and information on available resources. Additionally, consider exploring unconventional paths that align with your educational and career goals while fitting your financial situation."],
+         "context": [""]
+      },
+      {"tag": "thesis3",
+         "patterns": ["is a thesis necessary for graduate studies"],
+         "responses": ["Absolutely. A thesis is often a requirement for graduate studies. A thesis serves multiple purposes in academic writing. It provides a clear roadmap for your research, establishes the central argument, and contributions to critical thinking."],
+         "context": [""]
+      },
+      {"tag": "acads",
+         "patterns": ["feeling overwhelmed with coursework and assignments"],
+         "responses": ["It's completely normal to feel overwhelmed, especially when the workload is high. Let's break down your tasks into smaller, manageable steps and create a schedule. Prioritizing assignments and seeking support from professors or classmates can also help.."],
+         "context": [""]
+      },
+      {"tag": "acads1",
+         "patterns": ["no motivation", "attend classes"],
+         "responses": ["Lack of motivation can be challenging. Let's explore what aspects of your studies interest you. Setting small goals, finding new ways to engage with the material, or incorporating breaks into your study routine might help reignite your motivation."],
+         "context": [""]
+      },
+      {"tag": "acads2",
+         "patterns": ["stress of exams is affecting", "replace me"],
+         "responses": ["Experiencing stress is common, especially during exams. Let's discuss stress management techniques, like deep breathing exercises or mindfulness. Planning your study sessions well in advance and taking breaks can also alleviate stress."],
+         "context": [""]
+      },
+      {"tag": "acads3",
+         "patterns": ["I'm struggling to balance academics and my personal life"],
+         "responses": ["Balancing academics and personal life is crucial. Let's create a schedule that allocates time for both. Prioritizing self-care, setting boundaries, and communicating your schedule with friends and family can help achieve a healthier balance."],
+         "context": [""]
+      },
+      {"tag": "acads4",
+         "patterns": ["afraid of failing my exams"],
+         "responses": ["Fear of failure is understandable. It's essential to focus on the process rather than just the outcome. Let's work on effective study strategies, seek support when needed, and remember that mistakes are opportunities for learning and improvement."],
+         "context": [""]
+      },
+        {"tag": "acads5",
+         "patterns": ["received critical feedback on my work, and it's affecting my confidence"],
+         "responses": ["Receiving feedback, whether positive or critical, is part of the learning process. Let's review the feedback together and identify areas for improvement. Constructive criticism is an opportunity to grow, and I'm here to support you."],
+         "context": [""]
+      },
+        {"tag": "acads6",
+         "patterns": ["isolated","disconnected from classmates"],
+         "responses": ["Feeling isolated is challenging. Let's explore opportunities to connect with classmates, such as joining study groups, participating in class discussions, or engaging in extracurricular activities. Building a supportive network can positively impact your academic experience.Remember that each person's experience is unique, and responses should be tailored to individual needs. Encouraging open communication, providing support, and helping students develop coping strategies are essential components of addressing emotional challenges in academics."],
+         "context": [""]
+      },
+        {"tag": "acads7",
+         "patterns": ["doubt abilities"],
+         "responses": ["Imposter syndrome is common, especially in academic settings. Let's explore your accomplishments, acknowledge your strengths, and work on building confidence. Remember, everyone has their unique journey."],
+         "context": [""]
+      },
+        {"tag": "acads8",
+         "patterns": ["uncertain future","career path"],
+         "responses": ["Uncertainty about the future is normal. Let's explore your interests, strengths, and potential career paths. Developing a plan and seeking guidance from career services can provide clarity and alleviate anxiety."],
+         "context": [""]
+        },
+        {"tag": "acads9",
+         "patterns": ["effort","unnoticed"],
+         "responses": ["Feeling unrecognized can be disheartening. Let's discuss ways to communicate your efforts to instructors, such as sharing progress or seeking feedback. It's important for your hard work to be acknowledged, and we can find ways to make that happen."],
+         "context": [""]
+        },
+        {"tag": "subject",
+         "patterns": ["subject", "unit"],
+         "responses": ["Sorry, I was not built to answer that."],
+         "context": [""]
+        },
+        {"tag": "bullying",
+         "patterns": ["bully", "bullies"],
+         "responses": ["Stand tall and project confidence. Bullies often target those they perceive as vulnerable. Assertive body language and a confident demeanor can discourage them."],
+         "context": [""]
+        },
+        {"tag": "bullying2",
+         "patterns": ["bullying"],
+         "responses": ["If the bullying persists and becomes harmful or threatening, report it to the appropriate authorities, such as school officials, HR at work, or law enforcement."],
+         "context": [""]
+        },
+        {"tag": "bullying3",
+         "patterns": ["bullied"],
+         "responses": ["Keep a record of incidents, including dates, times, locations, and details of what happened. This documentation can be useful if you need to involve authorities or seek intervention."],
+         "context": [""]
+        },
+        {"tag": "finance",
+         "patterns": ["financial problem"],
+         "responses": ["Explore available financial aid options, such as scholarships, grants, and student loans. Many institutions and organizations offer financial assistance to students in need."],
+         "context": [""]
+        },
+        {"tag": "finance2",
+         "patterns": ["debt", "financial"],
+         "responses": ["Consider finding part-time work to help cover your expenses. Many students successfully balance work and academics. Look for on-campus opportunities or flexible off-campus jobs."],
+         "context": [""]
+        },
+        {"tag": "time",
+         "patterns": ["time", "time management", "late"],
+         "responses": ["Develop a weekly or monthly schedule that includes all your classes, study sessions, work commitments, and other activities. Use a planner or digital tools to help you stay organized."],
+         "context": [""]
+        },
+        {"tag": "time2",
+         "patterns": ["deadlines", "due date"],
+         "responses": ["Identify and prioritize tasks based on their importance and deadlines. Focus on completing high-priority tasks first before moving on to less critical ones."],
+         "context": [""]
+      }
+    ]
+ }
